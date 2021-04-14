@@ -28,8 +28,11 @@ Now the service will be running in port 1500.
 Go to any web browser and hit the url `http://<ip>:1500/crawlWebsite?url=<absolute-url>`. As a result, an output file will be generated under `outputs` folder.
 
 whereas, 
+
     ip = your ip address
+    
     absolute-url =  Absolute url of the domain for scraping
+    
 eg: http://localhost:1500/crawlWebsite?url=https://www.wipro.com 
 
 
