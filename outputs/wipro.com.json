@@ -1,0 +1,508 @@
+{
+    "Internal Links": [
+        {
+            "Title": "",
+            "Link": "https://www.wipro.com/en/"
+        },
+        {
+            "Title": "Cloud",
+            "Link": "https://www.wipro.com/cloud/"
+        },
+        {
+            "Title": "Cybersecurity",
+            "Link": "https://www.wipro.com/cybersecurity/"
+        },
+        {
+            "Title": "Digital",
+            "Link": "https://www.wipro.com/digital/"
+        },
+        {
+            "Title": "EngineeringNXT",
+            "Link": "https://www.wipro.com/engineeringNXT/"
+        },
+        {
+            "Title": "HOLMES",
+            "Link": "https://www.wipro.com/holmes/"
+        },
+        {
+            "Title": "Data, Analytics & AI",
+            "Link": "https://www.wipro.com/analytics/"
+        },
+        {
+            "Title": "Applications",
+            "Link": "https://www.wipro.com/applications/"
+        },
+        {
+            "Title": "Digital Operations and Platform",
+            "Link": "https://www.wipro.com/business-process/"
+        },
+        {
+            "Title": "Consulting",
+            "Link": "https://www.wipro.com/consulting/"
+        },
+        {
+            "Title": "Infrastructure Services",
+            "Link": "https://www.wipro.com/infrastructure/"
+        },
+        {
+            "Title": "As a service",
+            "Link": "https://www.wipro.com/themes/as-a-service/"
+        },
+        {
+            "Title": "Big Data",
+            "Link": "https://www.wipro.com/analytics/big-data-as-a-service/"
+        },
+        {
+            "Title": "Blockchain",
+            "Link": "https://www.wipro.com/blockchain/"
+        },
+        {
+            "Title": "DevOps",
+            "Link": "https://www.wipro.com/infrastructure/devops/"
+        },
+        {
+            "Title": "Enterprise Ops Transformation",
+            "Link": "https://www.wipro.com/business-process/enterprise-operations-transformation/"
+        },
+        {
+            "Title": "Industry 4.0",
+            "Link": "https://www.wipro.com/process-and-industrial-manufacturing/smart-manufacturing/"
+        },
+        {
+            "Title": "Open Source",
+            "Link": "https://www.wipro.com/open-source/"
+        },
+        {
+            "Title": "Product Lifecycle Management",
+            "Link": "https://www.wipro.com/engineeringNXT/product-lifecycle-management/"
+        },
+        {
+            "Title": "Software Defined Everything",
+            "Link": "https://www.wipro.com/themes/software-defined-everything--sdx-/"
+        },
+        {
+            "Title": "Aerospace & Defense",
+            "Link": "https://www.wipro.com/aerospace-and-defense/"
+        },
+        {
+            "Title": "Automotive",
+            "Link": "https://www.wipro.com/automotive/"
+        },
+        {
+            "Title": "Banking",
+            "Link": "https://www.wipro.com/banking/"
+        },
+        {
+            "Title": "Capital Markets",
+            "Link": "https://www.wipro.com/capital-markets/"
+        },
+        {
+            "Title": "Communications",
+            "Link": "https://www.wipro.com/communications-/"
+        },
+        {
+            "Title": "Consumer Electronics",
+            "Link": "https://www.wipro.com/consumer-electronics/"
+        },
+        {
+            "Title": "Consumer Packaged Goods",
+            "Link": "https://www.wipro.com/consumer-packaged-goods/"
+        },
+        {
+            "Title": "Education",
+            "Link": "https://www.wipro.com/education/"
+        },
+        {
+            "Title": "Engineering, Construction & Operations",
+            "Link": "https://www.wipro.com/engineering-construction-operations/"
+        },
+        {
+            "Title": "Healthcare",
+            "Link": "https://www.wipro.com/healthcare/"
+        },
+        {
+            "Title": "Insurance",
+            "Link": "https://www.wipro.com/insurance/"
+        },
+        {
+            "Title": "Medical Devices",
+            "Link": "https://www.wipro.com/medical-devices/"
+        },
+        {
+            "Title": "Natural Resources",
+            "Link": "https://www.wipro.com/natural-resources/"
+        },
+        {
+            "Title": "New Age Markets",
+            "Link": "https://www.wipro.com/new-age-markets/"
+        },
+        {
+            "Title": "New Age & Media",
+            "Link": "https://www.wipro.com/new-age-media/"
+        },
+        {
+            "Title": "Network & Edge Providers",
+            "Link": "https://www.wipro.com/network-edge-providers/"
+        },
+        {
+            "Title": "Oil & Gas",
+            "Link": "https://www.wipro.com/oil-and-gas/"
+        },
+        {
+            "Title": "Pharmaceutical & Life Sciences",
+            "Link": "https://www.wipro.com/pharmaceutical-and-life-sciences/"
+        },
+        {
+            "Title": "Platforms & Software Products",
+            "Link": "https://www.wipro.com/platforms-and-software-products/"
+        },
+        {
+            "Title": "Industrial & Process Manufacturing",
+            "Link": "https://www.wipro.com/process-and-industrial-manufacturing/"
+        },
+        {
+            "Title": "Professional Services",
+            "Link": "https://www.wipro.com/professional-services/"
+        },
+        {
+            "Title": "Public sector",
+            "Link": "https://www.wipro.com/public-sector/"
+        },
+        {
+            "Title": "Retail",
+            "Link": "https://www.wipro.com/retail/"
+        },
+        {
+            "Title": "Semiconductors",
+            "Link": "https://www.wipro.com/semiconductors/"
+        },
+        {
+            "Title": "Travel & Transportation",
+            "Link": "https://www.wipro.com/travel-and-transportation/"
+        },
+        {
+            "Title": "Utilities",
+            "Link": "https://www.wipro.com/utilities/"
+        },
+        {
+            "Title": "United States",
+            "Link": "https://www.wipro.com/en-US/"
+        },
+        {
+            "Title": "Canada",
+            "Link": "https://www.wipro.com/en-CA/"
+        },
+        {
+            "Title": "English",
+            "Link": "https://www.wipro.com/en-BR/"
+        },
+        {
+            "Title": "Portuguese",
+            "Link": "https://www.wipro.com/pt-BR/"
+        },
+        {
+            "Title": "English",
+            "Link": "https://www.wipro.com/en-MX/"
+        },
+        {
+            "Title": "Spanish",
+            "Link": "https://www.wipro.com/es-MX/"
+        },
+        {
+            "Title": "Latam",
+            "Link": "https://www.wipro.com/en-latam/"
+        },
+        {
+            "Title": "Benelux",
+            "Link": "https://www.wipro.com/en-benelux/"
+        },
+        {
+            "Title": "Nordic",
+            "Link": "https://www.wipro.com/en-nordic/"
+        },
+        {
+            "Title": "France",
+            "Link": "https://www.wipro.com/en-FR/"
+        },
+        {
+            "Title": "English",
+            "Link": "https://www.wipro.com/en-dach/"
+        },
+        {
+            "Title": "Deutsch",
+            "Link": "https://www.wipro.com/de-dach/"
+        },
+        {
+            "Title": "Africa",
+            "Link": "https://www.wipro.com/en-africa/"
+        },
+        {
+            "Title": "United Kingdom & Ireland",
+            "Link": "https://www.wipro.com/en-UKI/"
+        },
+        {
+            "Title": "Asean",
+            "Link": "https://www.wipro.com/en-asean/"
+        },
+        {
+            "Title": "Korea",
+            "Link": "https://www.wipro.com/en-KR/"
+        },
+        {
+            "Title": "China",
+            "Link": "https://www.wipro.com/en-CN/"
+        },
+        {
+            "Title": "Australia",
+            "Link": "https://www.wipro.com/en-AU/"
+        },
+        {
+            "Title": "English",
+            "Link": "https://www.wipro.com/en-JP/"
+        },
+        {
+            "Title": "Japanese",
+            "Link": "https://www.wipro.com/ja-JP/"
+        },
+        {
+            "Title": "Taiwan",
+            "Link": "https://www.wipro.com/en-TW/"
+        },
+        {
+            "Title": "India",
+            "Link": "https://www.wipro.com/en-IN/"
+        },
+        {
+            "Title": "Middle East",
+            "Link": "https://www.wipro.com/en-ME/"
+        },
+        {
+            "Title": "Global Site",
+            "Link": "https://www.wipro.com/content/nexus/en.html"
+        },
+        {
+            "Title": "Contact Us",
+            "Link": "https://www.wipro.com/contact-wipro/"
+        },
+        {
+            "Title": "About Wipro",
+            "Link": "https://www.wipro.com/about-us/"
+        },
+        {
+            "Title": "Locations",
+            "Link": "https://www.wipro.com/location/"
+        },
+        {
+            "Title": "Leadership",
+            "Link": "https://www.wipro.com/leadership/"
+        },
+        {
+            "Title": "Investors",
+            "Link": "https://www.wipro.com/investors/"
+        },
+        {
+            "Title": "Innovation",
+            "Link": "https://www.wipro.com/innovation/"
+        },
+        {
+            "Title": "News and Events",
+            "Link": "https://www.wipro.com/newsroom/"
+        },
+        {
+            "Title": "Insights",
+            "Link": "https://www.wipro.com/blogs/"
+        },
+        {
+            "Title": "Analyst speak",
+            "Link": "https://www.wipro.com/analyst-speak/"
+        },
+        {
+            "Title": "Products & Platforms",
+            "Link": "https://www.wipro.com/products-and-platforms/"
+        },
+        {
+            "Title": "Partner Ecosystem",
+            "Link": "https://www.wipro.com/partner-ecosystem/"
+        },
+        {
+            "Title": "Sustainability",
+            "Link": "https://www.wipro.com/sustainability/"
+        },
+        {
+            "Title": "Wipro to acquire Ampion, leading Australian provider of cyber security, DevOps and quality engineering services",
+            "Link": "https://www.wipro.com/content/nexus/en/newsroom/press-releases/2021/wipro-to-acquire-ampion-leading-australian-provider-of-cyber-security-devops-and-quality-engineering-services"
+        },
+        {
+            "Title": "Using IoT to Create Intelligent Enterprise\n                        \n                        What gets measured, gets managed",
+            "Link": "https://www.wipro.com/content/nexus/en/blogs/harmeet-chauhan/using-iot-to-create-an-intelligent-enterprise"
+        },
+        {
+            "Title": "Vaccine Distribution Made Safer and More Reliable with Blockchain Innovations",
+            "Link": "https://www.wipro.com/content/nexus/en/digital/latest-thinking/vaccine-distribution-made-safer-and-more-reliable-with-blockchain-innovations"
+        },
+        {
+            "Title": "Leadership Tips for Challenging Times\n                        \n                        Inspire your remote teams with these essential steps.",
+            "Link": "https://www.wipro.com/infrastructure/results-oriented-leadership-practices-for-todays-new-normal/"
+        },
+        {
+            "Title": "Wipro AI Tech Detects COVID-19 \n                        \n                        Advancing medicine to contain the pandemic.",
+            "Link": "https://www.wipro.com/innovation/wipro-pioneers-advanced-ai-technology-to-listen-for-covid-19/"
+        },
+        {
+            "Title": "Innovation Centers",
+            "Link": "https://www.wipro.com/content/nexus/en/innovation/innovationcenters"
+        },
+        {
+            "Title": "The 5G Digital Divide\n                        \n                        Equity, Infrastructure and the De-Balkanization of Data",
+            "Link": "https://www.wipro.com/content/nexus/en/blogs/viswanathan-ramaswamy1/digital-divide-how-is-5-g-infrastructure-impacting-inequality"
+        },
+        {
+            "Title": "The Tradeoff Between Cloud and Customization",
+            "Link": "https://www.wipro.com/content/nexus/en/blogs/harish-dwarkanhalli/the-tradeoff-between-cloud-and-customization"
+        },
+        {
+            "Title": "Know more",
+            "Link": "https://www.wipro.com/content/nexus/en/blogs/wipro-insights/covid-19-updates.html"
+        },
+        {
+            "Title": "Privacy Statement",
+            "Link": "https://www.wipro.com/privacy-statement/"
+        },
+        {
+            "Title": "Disclaimer",
+            "Link": "https://www.wipro.com/disclaimer/"
+        },
+        {
+            "Title": "RSS Feed",
+            "Link": "https://www.wipro.com/rssfeed/"
+        }
+    ],
+    "Internal Images": [
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/header/wipro-logo.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/search-icon.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/header/menu-icon.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_usa.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_canada.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_brazil.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_mexico.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_none.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/france_flag.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_korea.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_china.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_australia.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_japan.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_taiwan.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/country-flag/flag_india.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/OneWipro_homepage-tile.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/news-tile-home.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/socr-homepage-tile.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/service-lines/cloud/images/intelligent-contact-center-i-847519126-1896x590.png/jcr:content/renditions/575x312.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/vaccine-distribution-using-blockchain-1896x590.jpg/jcr:content/renditions/vaccine-distribution-using-blockchain-575x312.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/8-stateofautomation-575x540.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/wib-home-page-tile-400x276.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/results-oriented-leadership-practices-for-todays-new-normal-tile.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/pop-up/popup-close.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/wipro-pioneers-advanced-ai-technology-to-listen-for-covid-19-tile.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/innovation/images/svic-400x276.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/11-cyberinfo-bigjigsaw.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/blogs/2020/images/digital-divide-how-is-5-g-infrastructure-impacting-inequality-1896x590.jpg/jcr:content/renditions/digital-divide-how-is-5-g-infrastructure-impacting-inequality-575x312.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en-BR/images/images/wipro-brasil-e-reconhecida-como-top-employer-2021-i-1144238730-1896x590.png/jcr:content/renditions/575x312.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/images/how-blockchain-can-hack-proof-a-supply-chain-1896x590.jpg/jcr:content/renditions/how-blockchain-can-hack-proof-a-supply-chain-575x540.jpg"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/en/campaigns/image/workfor2020/cta-contact-us3.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/share-icons/share-icon.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/search/popup-close-white.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/search/search-btn.png"
+        },
+        {
+            "Image": "https://www.wipro.com/content/dam/nexus/images/search/loading.gif"
+        }
+    ],
+    "External Links": [
+        {
+            "Link": "https://careers.wipro.com/"
+        },
+        {
+            "Link": "https://twitter.com/wipro"
+        },
+        {
+            "Link": "https://www.facebook.com/WiproLimited"
+        },
+        {
+            "Link": "https://www.youtube.com/user/Wiprovideos"
+        },
+        {
+            "Link": "https://www.linkedin.com/company/wipro/"
+        },
+        {
+            "Link": "https://careers.wipro.com/careers-home/"
+        }
+    ],
+    "Multimedias": []
+}

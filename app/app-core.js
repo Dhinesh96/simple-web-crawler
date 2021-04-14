@@ -11,45 +11,72 @@ function appCore() {
             url: websiteStartUrl
         })
         .then(function(responseHTML) {
-            var internalLinks = [];
-            var externalLinks = [];
-            var internalImages = [];
+            var extractedInternalLinks = [];
+            var extracedExternalLinks = [];
+            var extractedInternalImages = [];
+            var extractedMultimediaElements = [];
+            var tempObj = {};
             var $ = cheerio.load(responseHTML.data);
-            
+           
             //Extracting all internal links
-            var hrefInternalLinks = $("a[href^='/']"); 
-            console.log("Internal Links Count: " + hrefInternalLinks.length);
+            var hrefInternalLinks = $("a[href^='/']:not(a[href^='mailto'])"); 
             hrefInternalLinks.each(function(i, item) {
-                internalLinks.push({
-                    title: $(item).text().trim(),
-                    hrefLink: url.resolve(websiteStartUrl, $(item).attr('href'))
-                });
+                tempObj = {
+                    Title: $(item).text().trim(),
+                    Link: url.resolve(websiteStartUrl, $(item).attr('href'))
+                };
+                if((extractedInternalLinks.findIndex(obj => obj.Link == tempObj.Link)) === -1) {
+                    extractedInternalLinks.push(tempObj); 
+                }
             });
+            console.log("Internal Links Count: " + extractedInternalLinks.length);
 
             //Extracting all external links
-            var hrefExernalLinks = $('a:not([href^="' + websiteStartUrl + '"]):not([href^="#"]):not([href^="javascript:void(0)"]):not([href^="/"])');
-            console.log("External Links Count: " + hrefExernalLinks.length);
+            var hrefExernalLinks = $('a:not([href^="' + websiteStartUrl + '"])' + 
+                                     ':not([href^="#"])' + 
+                                     ':not([href^="javascript:void(0)"])' + 
+                                     ':not([href^="/"])');
             hrefExernalLinks.each(function(i, item) {
-                externalLinks.push({
-                    title: $(item).text().trim(),
-                    hrefLink: $(item).attr('href')
-                });
+                tempObj = {
+                    Link: $(item).attr('href')
+                };
+                if((extracedExternalLinks.findIndex(obj => obj.Link == tempObj.Link)) === -1) {
+                    extracedExternalLinks.push(tempObj);
+                }
             });
+            console.log("External Links Count: " + extracedExternalLinks.length);
 
             //Extracting all internal images 
             var imageInternalLinks = $("img[src^='/']");
-            console.log("Internal Images Count: " + imageInternalLinks.length);
             imageInternalLinks.each(function(i, item) {
-                internalImages.push({
-                    image: url.resolve(websiteStartUrl, $(item).attr('src'))
-                });
+                tempObj = {
+                    Image: url.resolve(websiteStartUrl, $(item).attr('src'))
+                };
+                if((extractedInternalImages.findIndex(obj => obj.Image == tempObj.Image)) === -1) {
+                    extractedInternalImages.push(tempObj);
+                }
             });
-            
-            var finalOutputJson = { "Internal Links": internalLinks, "Internal Images": internalImages, "External Links": externalLinks };
-            fs.writeFileSync('outputs/result.json',JSON.stringify(finalOutputJson));
+            console.log("Internal Images Count: " + extractedInternalImages.length);
+
+            //Extracting multimedia elements
+            var multimediaElements = $("video > source, audio > source");
+            multimediaElements.each(function(i, item) {
+                tempObj = {
+                    Multimedia: $(item).attr('src')
+                };
+                if((extractedMultimediaElements.findIndex(obj => obj.Multimedia == tempObj.Multimedia)) === -1) {
+                    extractedMultimediaElements.push(tempObj);
+                }
+            });
+            console.log("Multimedia Elements Count: " + extractedMultimediaElements.length);
+
+            var finalOutputJson = { "Internal Links": extractedInternalLinks, "Internal Images": extractedInternalImages, "External Links": extracedExternalLinks, "Multimedias": extractedMultimediaElements };
+            fs.writeFileSync('outputs/' + new URL(websiteStartUrl).hostname.replace('www.','') + '.json',JSON.stringify(finalOutputJson, null, 4));
+
+            callback("Extracted required information, you can find results under repo's output folder", null);
         })
         .catch(function(error){
-            console.log(error);
+            callback(null, error);
         });
     }
 }
