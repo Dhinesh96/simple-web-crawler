@@ -12,8 +12,6 @@ cd web-crawler
 npm install
 ```
 
-To demonstrate, this service will crawl wipro.com by default, but you can change any domain url in config/service-constants.js file.
-
 ## Running the service
 
 Run the web crawler service as below:
@@ -27,10 +25,14 @@ Now the service will be running in port 1500.
 
 ## Testing the service
 
-Go to any web browser and hit the url `http://<ip>:<port>/crawlWebsite`. As a result, an output file will be generated under `outputs` folder.
+Go to any web browser and hit the url `http://<ip>:1500/crawlWebsite?url=<absolute-url>`. As a result, an output file will be generated under `outputs` folder.
+
+whereas, 
+    ip = your ip address
+    absolute-url =  Absolute url of the domain for scraping
+eg: http://localhost:1500/crawlWebsite?url=https://www.wipro.com 
 
 
 ## What can be done with more time?
 
-We can implement Web Socket for speedening and getting the live data.
-
+More validation and filtering can be done.

@@ -2,10 +2,9 @@ var axios = require('axios');
 var cheerio = require('cheerio');
 var fs = require('fs');
 var url = require('url');
-var { websiteStartUrl } = require('../config/service-constants.js');
 
 function appCore() {
-    this.crawlWebsite = function(callback) {
+    this.crawlWebsite = function(websiteStartUrl, callback) {
         axios({
             method: 'get',
             url: websiteStartUrl

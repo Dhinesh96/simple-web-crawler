@@ -3,7 +3,8 @@ var appCore = require('../app/app-core.js');
 module.exports = {
     crawlWebsite: function(request, response) {
         var appCoreObj = new appCore;
-        appCoreObj.crawlWebsite(function(data, error){
+        var url = request.query.url;
+        appCoreObj.crawlWebsite(url, function(data, error){
             if(error != null){
                 response.send(error);
             }
