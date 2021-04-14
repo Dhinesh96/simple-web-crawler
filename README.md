@@ -7,7 +7,7 @@ This repository is a simple web crawler service developed with node.js
 Clone the repo and download all the dependencies as below:
 
 ```bash
-git clone https://github.com/dhinesh/test.git
+git clone https://github.com/Dhinesh96/simple-web-crawler.git
 cd web-crawler 
 npm install
 ```
