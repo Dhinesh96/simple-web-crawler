@@ -4,15 +4,17 @@
   "description": "Simple Web Crawler Service",
   "main": "routes/route.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "mocha 'tests/*.js'",
     "start-service": "node routes/route.js"
   },
   "author": "Dhinesh Babu Subramani",
   "license": "ISC",
   "dependencies": {
+    "assert": "^2.0.0",
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "cheerio": "^1.0.0-rc.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^8.3.2"
   }
 }

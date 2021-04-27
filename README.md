@@ -8,7 +8,7 @@ Clone the repo and download all the dependencies as below:
 
 ```bash
 git clone https://github.com/Dhinesh96/simple-web-crawler.git
-cd web-crawler 
+cd simple-web-crawler 
 npm install
 ```
 
@@ -34,6 +34,19 @@ whereas,
     absolute-url =  Absolute url of the domain for scraping
     
 eg: http://localhost:1500/crawlWebsite?url=https://www.wipro.com 
+
+
+## Running the tests
+
+Run the below npm command to test the crawler:
+
+```bash
+npm run test:unit
+```
+
+This will test the function used to crawl the sites and generates a output file under `outputs/wipro.com.json`
+
+Note: Before you do crawling for any website, make sure it is legal to crawl the site by checking robots.txt file of the website. You can get the robots.txt file from `website-url/robots.txt`. Read more about robots.txt in https://en.wikipedia.org/wiki/Robots_exclusion_standard.
 
 
 ## What can be done with more time?
